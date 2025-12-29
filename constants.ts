@@ -1,0 +1,73 @@
+
+export const LANGUAGES = [
+  { code: 'en', name: 'English' },
+  { code: 'es', name: 'Spanish' },
+  { code: 'fr', name: 'French' },
+  { code: 'de', name: 'German' },
+  { code: 'gom', name: 'Konkani' },
+  { code: 'hi', name: 'Hindi' },
+  { code: 'mr', name: 'Marathi' },
+  { code: 'sa', name: 'Sanskrit' },
+  { code: 'it', name: 'Italian' },
+  { code: 'pt', name: 'Portuguese' },
+  { code: 'ru', name: 'Russian' },
+  { code: 'ja', name: 'Japanese' },
+  { code: 'ko', name: 'Korean' },
+  { code: 'zh', name: 'Chinese (Simplified)' },
+  { code: 'ar', name: 'Arabic' },
+  { code: 'tr', name: 'Turkish' },
+  { code: 'nl', name: 'Dutch' },
+  { code: 'pl', name: 'Polish' },
+  { code: 'vi', name: 'Vietnamese' },
+  { code: 'th', name: 'Thai' },
+  { code: 'id', name: 'Indonesian' },
+  { code: 'sv', name: 'Swedish' },
+  { code: 'da', name: 'Danish' },
+  { code: 'no', name: 'Norwegian' },
+  { code: 'fi', name: 'Finnish' },
+  { code: 'el', name: 'Greek' },
+  { code: 'he', name: 'Hebrew' },
+  { code: 'ta', name: 'Tamil' },
+  { code: 'te', name: 'Telugu' },
+  { code: 'kn', name: 'Kannada' },
+  { code: 'ml', name: 'Malayalam' },
+  { code: 'pa', name: 'Punjabi' },
+  { code: 'bn', name: 'Bengali' },
+  { code: 'gu', name: 'Gujarati' },
+  { code: 'fa', name: 'Persian' },
+  { code: 'sw', name: 'Swahili' },
+  { code: 'uk', name: 'Ukrainian' },
+  { code: 'cs', name: 'Czech' },
+  { code: 'ro', name: 'Romanian' },
+  { code: 'hu', name: 'Hungarian' },
+];
+
+export const MOCK_ACTIVITY: any[] = [
+  {
+    id: '1',
+    title: 'Camera Scan - Menu',
+    timestamp: '2 mins ago',
+    sourceLang: 'French',
+    targetLang: 'English',
+    type: 'live',
+    status: 'Completed'
+  },
+  {
+    id: '2',
+    title: 'Introduction_Video.mp4',
+    timestamp: '1 hour ago',
+    sourceLang: 'English',
+    targetLang: 'Spanish',
+    type: 'video',
+    status: 'Processing'
+  },
+  {
+    id: '3',
+    title: 'Meeting Notes Audio',
+    timestamp: 'Yesterday',
+    sourceLang: 'German',
+    targetLang: 'English',
+    type: 'voice',
+    status: 'Saved'
+  }
+];

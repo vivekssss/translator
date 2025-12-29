@@ -1,0 +1,8 @@
+{
+  "name": "TranslateNow",
+  "description": "A sophisticated real-time translation application featuring live camera OCR translation and video file translation with AI-powered dubbing and subtitling.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
