@@ -7,6 +7,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 interface VideoResultViewProps {
   sourceLang: string;
+  
   targetLang: string;
 }
 
